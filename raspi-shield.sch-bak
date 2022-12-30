@@ -118,9 +118,9 @@ GND
 Text Label 5100 2400 2    50   ~ 0
 3V3
 Text Label 5100 2200 2    50   ~ 0
-SCL
+GPIO3_SCL
 Text Label 5100 2100 2    50   ~ 0
-SDA
+GPIO2_SDA
 Wire Wire Line
 	4850 3150 5100 3150
 Wire Wire Line

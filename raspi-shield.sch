@@ -532,4 +532,106 @@ Text Label 5900 3750 0    50   ~ 0
 GPIO20_MOSI1
 Text Label 5900 3850 0    50   ~ 0
 GPIO21_SCLK1
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 632C50C1
+P 4050 3700
+F 0 "J?" H 4000 4150 50  0000 C CNN
+F 1 "Conn_01x06" H 4000 4050 50  0000 C CNN
+F 2 "" H 4050 3700 50  0001 C CNN
+F 3 "~" H 4050 3700 50  0001 C CNN
+	1    4050 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 632C66AD
+P 3450 3700
+F 0 "J?" H 3400 4150 50  0000 L CNN
+F 1 "Conn_01x06" H 3200 4050 50  0000 L CNN
+F 2 "" H 3450 3700 50  0001 C CNN
+F 3 "~" H 3450 3700 50  0001 C CNN
+	1    3450 3700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 3500 3700 3500
+Wire Wire Line
+	3850 3600 3700 3600
+Wire Wire Line
+	3850 3700 3700 3700
+Wire Wire Line
+	3850 3800 3700 3800
+Wire Wire Line
+	3850 3900 3700 3900
+Wire Wire Line
+	3850 4000 3700 4000
+Text Label 3700 3500 0    50   ~ 0
+LV1
+Text Label 3700 3600 0    50   ~ 0
+LV2
+Text Label 3700 3900 0    50   ~ 0
+LV3
+Text Label 3700 4000 0    50   ~ 0
+LV4
+Text Label 3700 3800 0    50   ~ 0
+GND
+Text Label 3700 3700 0    50   ~ 0
+3V3
+Wire Wire Line
+	3250 3500 3100 3500
+Wire Wire Line
+	3250 3600 3100 3600
+Wire Wire Line
+	3250 3700 3100 3700
+Wire Wire Line
+	3250 3800 3100 3800
+Wire Wire Line
+	3250 3900 3100 3900
+Wire Wire Line
+	3250 4000 3100 4000
+Text Label 3100 3500 0    50   ~ 0
+HV1
+Text Label 3100 3600 0    50   ~ 0
+HV2
+Text Label 3100 3900 0    50   ~ 0
+HV3
+Text Label 3100 4000 0    50   ~ 0
+HV4
+Text Label 3100 3800 0    50   ~ 0
+GND
+Text Label 3100 3700 0    50   ~ 0
+5V
+Wire Wire Line
+	6650 1400 6950 1400
+Wire Wire Line
+	6650 1500 6950 1500
+Wire Wire Line
+	6650 1600 6950 1600
+Wire Wire Line
+	6650 1700 6950 1700
+Text Label 6950 1400 0    50   ~ 0
+HV1
+Text Label 6950 1500 0    50   ~ 0
+HV2
+Text Label 6950 1600 0    50   ~ 0
+HV3
+Text Label 6950 1700 0    50   ~ 0
+HV4
+Wire Wire Line
+	5950 1000 5950 800 
+Wire Wire Line
+	6250 1000 6250 800 
+Text Label 5950 800  3    50   ~ 0
+5V
+Text Label 6250 800  3    50   ~ 0
+5V
+Text Label 9100 4350 0    50   ~ 0
+LV1
+Text Label 9100 4250 0    50   ~ 0
+LV2
+Text Label 9100 4150 0    50   ~ 0
+LV3
+Text Label 9100 4050 0    50   ~ 0
+LV1
 $EndSCHEMATC
